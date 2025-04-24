@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Build the site
-        run: hugo --config config.toml
+        run: hugo --config exampleSite/hugo.yaml
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
