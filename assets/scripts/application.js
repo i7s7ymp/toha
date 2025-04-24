@@ -1,4 +1,4 @@
-import '@popperjs/core'
+import 'popper.js'
 import 'bootstrap'
 import '@fortawesome/fontawesome-free/js/all'
 import feather from 'feather-icons'
