@@ -47,7 +47,7 @@ badges:
     percentage: 100
     color: blue
   - type: soft-skill-indicator
-    name: AWS Solutions Architect
+    name: AWS
     percentage: 100
     color: orange
   - type: soft-skill-indicator
