@@ -5,7 +5,7 @@ copyright: '© 2025 Hiroki Yamashita'
 description: 'Portfolio of Hiroki Yamashita.'
 
 # ナビゲーションバーに表示されるタイトル
-navBarTitle: 'ポートフォリオ'
+navBarTitle: 'Portfolio'
 # カスタムメニューの設定
 # customMenus:
 #   - name: 'Blog'

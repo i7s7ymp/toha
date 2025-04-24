@@ -31,11 +31,6 @@ module:
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
-  en:
-    languageCode: en
-    languageName: English
-    title: "YMP's Portfolio"
-    weight: 1
   jp:
     languageCode: jp
     languageName: Japanese
@@ -85,7 +80,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/i7s7ymp/toha
   # Default branch of your Git repo
   gitBranch: main
 
@@ -118,8 +113,8 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: true
-      showAuthor: true
+      enable: false
+      showAuthor: false
       # Share post on different social media
       shareButtons:
         facebook: false
@@ -135,7 +130,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -325,7 +320,7 @@ params:
     # Show/hide newsletter section in the footer. Default is "true".
     # Currently, it supports "mailchimp".
     newsletter:
-      enable: true
+      enable: false
       provider: mailchimp
       mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
 
